@@ -4,20 +4,31 @@ MediBot 🏥🤖 - AI-Powered Medical Chatbot
 MediBot is an AI-powered chatbot designed to assist users with medical-related queries. It utilizes the Gemini API for natural language processing and is trained to respond exclusively to medical-related inquiries. The chatbot helps users understand symptoms, provides possible diagnoses, and suggests remedies, ensuring they receive helpful information while emphasizing the need for professional medical consultation.
 
 🚀 Features
+
 ✔️ Accepts and processes medical-related queries only
+
 ✔️ Utilizes Gemini API for intelligent responses
+
 ✔️ Provides symptom analysis and possible health conditions
+
 ✔️ Suggests general remedies for minor health concerns
+
 ✔️ Displays a user-friendly chat interface for interaction
+
 ✔️ Built with Flask and integrated with a custom API key stored securely in .env
 
 🛠 Tech Stack
+
 Frontend: HTML, CSS, JavaScript
+
 Backend: Python (Flask Framework)
+
 API Integration: Gemini API
+
 Security: .env file for storing API keys
 
 ⚙️ Installation
+
 Follow these steps to set up the project locally:
 
 1️⃣ Clone the Repository
@@ -50,9 +61,13 @@ Open your browser and go to http://127.0.0.1:5000/
 🤖 How It Works
 
 User enters a medical-related query in the chatbot.
+
 The chatbot processes the query and interacts with the Gemini API.
+
 The response is analyzed and displayed in a conversational format.
+
 If necessary, the chatbot provides symptom analysis and potential remedies.
+
 The system strictly answers only medical-related questions to maintain focus and reliability.
 
 📜 Disclaimer
@@ -62,6 +77,9 @@ MediBot is an AI-based assistant and should not be used as a substitute for prof
 💡 Future Enhancements
 
 🔹 Enhance response accuracy with additional medical datasets
+
 🔹 Improve UI with a more interactive chat experience
+
 🔹 Integrate speech-to-text for voice-based queries
+
 🔹 Implement real-time doctor consultation via chat/video

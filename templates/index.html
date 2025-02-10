@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediBot - Your Health Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="app-header">
+            <div class="logo">
+                <i class="fas fa-robot"></i>
+                <h1>MediBot</h1>
+            </div>
+            <p class="subtitle">Your Health Assistant</p>
+        </header>
+
+        <main class="chat-container">
+            <div class="chat-box" id="chatBox">
+                <!-- Messages will be inserted here -->
+            </div>
+
+            <form id="chatForm" class="chat-form">
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        id="userInput" 
+                        placeholder="Describe your symptoms..."
+                        autocomplete="off"
+                        required
+                    >
+                    <button type="submit">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                <div class="disclaimer">
+                    This bot provides general information only. Always consult a healthcare professional for medical advice.
+                </div>
+            </form>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

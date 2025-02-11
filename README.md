@@ -83,3 +83,11 @@ MediBot is an AI-based assistant and should not be used as a substitute for prof
 🔹 Integrate speech-to-text for voice-based queries
 
 🔹 Implement real-time doctor consultation via chat/video
+
+🤖 Screenshots:
+
+![Screenshot 2025-02-11 013341](https://github.com/user-attachments/assets/bc453717-cadf-4463-9677-604e71d3afbd)
+
+![Screenshot 2025-02-11 013424](https://github.com/user-attachments/assets/af3bbf2e-160b-4557-b7e3-14d0bdd96ef6)
+
+

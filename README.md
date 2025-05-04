@@ -1,23 +1,18 @@
-MediBot 🏥🤖 - AI-Powered Medical Chatbot
+## MediBot 🏥🤖 - AI-Powered Medical Chatbot
 
-📌 Overview
+### 📌 Overview
 MediBot is an AI-powered chatbot designed to assist users with medical-related queries. It utilizes the Gemini API for natural language processing and is trained to respond exclusively to medical-related inquiries. The chatbot helps users understand symptoms, provides possible diagnoses, and suggests remedies, ensuring they receive helpful information while emphasizing the need for professional medical consultation.
 
-🚀 Features
+### 🚀 Features
 
 ✔️ Accepts and processes medical-related queries only
-
 ✔️ Utilizes Gemini API for intelligent responses
-
 ✔️ Provides symptom analysis and possible health conditions
-
 ✔️ Suggests general remedies for minor health concerns
-
 ✔️ Displays a user-friendly chat interface for interaction
-
 ✔️ Built with Flask and integrated with a custom API key stored securely in .env
 
-🛠 Tech Stack
+### 🛠 Tech Stack
 
 Frontend: HTML, CSS, JavaScript
 
@@ -27,38 +22,48 @@ API Integration: Gemini API
 
 Security: .env file for storing API keys
 
-⚙️ Installation
+### ⚙️ Installation
 
 Follow these steps to set up the project locally:
 
 1️⃣ Clone the Repository
 
+```bash
 git clone https://github.com/TabrezShariff/MediBot.git
 cd MediBot
+```
 
 2️⃣ Create a Virtual Environment (Recommended)
 
+```bash
 python -m venv env
 source env/bin/activate   # MacOS/Linux  
 env\Scripts\activate      # Windows
+```
 
 3️⃣ Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 4️⃣ Configure API Key
+
 Create a .env file in the root directory
 Add your Gemini API key as follows:
-
+```bash
 API_KEY="your_gemini_api_key_here"
+```
 
 5️⃣ Run the Application
 
+```bash
 python app.py
+```
 
 Open your browser and go to http://127.0.0.1:5000/
 
-🤖 How It Works
+### 🤖 How It Works
 
 User enters a medical-related query in the chatbot.
 
@@ -70,11 +75,11 @@ If necessary, the chatbot provides symptom analysis and potential remedies.
 
 The system strictly answers only medical-related questions to maintain focus and reliability.
 
-📜 Disclaimer
+### 📜 Disclaimer
 
 MediBot is an AI-based assistant and should not be used as a substitute for professional medical advice. It is intended for informational purposes only. Always consult a licensed medical professional for serious health concerns.
 
-💡 Future Enhancements
+### 💡 Future Enhancements
 
 🔹 Enhance response accuracy with additional medical datasets
 
@@ -84,7 +89,7 @@ MediBot is an AI-based assistant and should not be used as a substitute for prof
 
 🔹 Implement real-time doctor consultation via chat/video
 
-🤖 Screenshots:
+### 🤖 Screenshots:
 
 ![Screenshot 2025-02-11 013341](https://github.com/user-attachments/assets/bc453717-cadf-4463-9677-604e71d3afbd)
 
